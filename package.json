@@ -1,0 +1,33 @@
+{
+  "//1": "created by Qthulu",
+  "//2": "",
+  "//3": "using discord.js v12",
+  "name": "bot-base",
+  "version": "1.4.0",
+  "description": "DiscordのBotのベースです。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "jsdom": "^19.0.0",
+    "node-fetch": "^3.2.4",
+    "pm2": "^5.1.2",
+    "puppeteer": "^14.1.1",
+    "querystring": "^0.2.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/mafiserver/bot-base"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "discord",
+    "bot"
+  ]
+}
